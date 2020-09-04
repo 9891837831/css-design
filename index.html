@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my page</title>
+    <style>
+        .nav {
+            margin: 0px;
+            height: 1151px;
+            width: 1583px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .container1 {
+            margin: 100px;
+            margin-left: 20px;
+            height: 50px;
+            width: 30000px;
+            /* border: 2px solid green; */
+            order: 3;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 1000;
+            color: rgb(153, 150, 150);
+        }
+        
+        .container2 {
+            /* border: 2px solid black; */
+            flex-direction: row;
+            margin: 40px;
+            height: 85%;
+            width: 100px;
+            order: 2;
+            margin-top: 80px;
+            padding: 5px;
+            position: absolute;
+            left: 10px;
+        }
+        
+        .container3 {
+            /* border: 2px solid green; */
+            height: 50px;
+            width: 30000px;
+            order: 5;
+            margin: 40px;
+            margin-top: 100px;
+            font-family: Roboto, Helvetica, sans-serif;
+            font-weight: 1000;
+            color: rgb(153, 150, 150);
+        }
+        
+        .container4 {
+            /* border: 2px solid green; */
+            height: 50px;
+            width: 30000px;
+            order: 6;
+            margin: 80px;
+            margin-top: 100px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 1000;
+            color: rgb(153, 150, 150);
+        }
+        
+        .container5 {
+            /* border: 2px solid green; */
+            height: 50px;
+            width: 30000px;
+            order: 7;
+            margin: 100px;
+            /* position: relative; */
+            /* left: 200px; */
+            /* bottom: 10px; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 1000;
+            color: rgb(153, 150, 150);
+        }
+        
+        .row {
+            position: relative;
+            /* z-index: 5; */
+            left: 170px;
+            top: 70px;
+            color: rgb(153, 150, 150);
+            /* width: 19.3726%; */
+            /* height: 1.84693%; */
+            /* left: 8.80748%; */
+            /* top: 4.05154%; */
+        }
+        
+        #path1 {
+            width: 33.4px;
+            height: 33.2px;
+            padding: 15px;
+            /* position: */
+        }
+        
+        #path2 {
+            width: 30.3px;
+            height: 26.2px;
+            padding: 15px;
+        }
+        
+        #path3 {
+            padding: 15px;
+            width: 32.4px;
+            height: 33.3px
+        }
+        
+        #path4 {
+            padding: 15px;
+            width: 32.4px;
+            height: 36.9px;
+        }
+        
+        #path5 {
+            padding: 15px;
+            width: 28.3px;
+            height: 20px;
+        }
+        
+        .index {
+            display: flex;
+            /* position: relative; */
+            /* left: 200px; */
+            /* bottom: 400px; */
+            padding: 15px;
+            /* margin-left: 10px; */
+        }
+        
+        .dev_1 {
+            font-size: 25px;
+            font-weight: bold;
+            position: relative;
+            left: 170px;
+            bottom: 980px;
+        }
+        
+        .dev_2 {
+            font-size: 18px;
+            font-weight: 900;
+            position: relative;
+            left: 230px;
+            bottom: 980px;
+            color: rgb(153, 150, 150);
+        }
+        
+        .dev_3 {
+            font-size: 18px;
+            font-weight: 900;
+            position: relative;
+            left: 260px;
+            width: 1.76898%;
+            height: 0.477501%;
+            bottom: 980px;
+            color: rgb(153, 150, 150);
+        }
+        
+        .dev_4 {
+            font-size: 18px;
+            font-weight: 900;
+            position: relative;
+            left: 300px;
+            bottom: 980px;
+            color: rgb(153, 150, 150);
+            border: 2px solid rgb(153, 150, 150);
+            border-radius: 2px;
+            height: 8mm;
+            width: 200px;
+            padding: 1px 10px;
+        }
+        
+        .dev_5 {
+            font-size: 18px;
+            font-weight: 900;
+            position: relative;
+            left: 650px;
+            bottom: 980px;
+            border: 2px solid rgb(109, 208, 247);
+            border-radius: 10px;
+            height: 20px;
+            width: 150px;
+            text-align: center;
+            color: rgb(109, 208, 247);
+            padding: 10px 1px;
+        }
+        
+        .thor {
+            position: relative;
+            left: 188px;
+            bottom: 950px;
+        }
+        
+        .thor1 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .thor2 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 50px;
+        }
+        
+        .thor3 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 70px;
+        }
+        
+        .thor4 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 75px;
+        }
+        
+        .thor5 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 80px;
+        }
+        
+        .thor6 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 85px;
+        }
+        
+        .cont1 {
+            margin-bottom: 15px;
+        }
+        
+        .cont3 {
+            margin-bottom: 15px;
+        }
+        
+        .shu {
+            position: relative;
+            left: 250px;
+            bottom: 970px;
+            width: 1.6329%;
+            height: 2.12704%;
+        }
+        
+        .level {
+            position: absolute;
+            left: 920px;
+            margin-top: 20px;
+            padding: 5px;
+        }
+        
+        .level1 {
+            height: 19.8px;
+            width: 16.5px;
+            /* padding: 3px; */
+            /* margin: 5px; */
+        }
+        
+        #tick1 {
+            height: 27.3px;
+            width: 28.1px;
+            margin-left: 10px;
+        }
+        
+        #done1 {
+            height: 27.3px;
+            width: 28.1px;
+            margin-left: 10px;
+        }
+        
+        .level1 {
+            height: 20px;
+            width: 18px;
+            padding-top: 40px;
+        }
+        
+        .level2 {
+            height: 20px;
+            width: 18px;
+            padding-top: 40px;
+            position: absolute;
+            left: 50px;
+        }
+        
+        #power {
+            position: relative;
+            left: 380px;
+            top: 140px;
+            background: #e7f2ff;
+            border: 3px solid #e7f2ff;
+            border-radius: 8px;
+            height: 15px;
+            width: 30px;
+        }
+        
+        #power1 {
+            position: relative;
+            left: 700px;
+            top: 140px;
+            background: #ecffdd;
+            border: 3px solid #ecffdd;
+            border-radius: 8px;
+            height: 15px;
+            width: 5000px;
+        }
+        
+        #power2 {
+            position: relative;
+            left: 1050px;
+            top: 140px;
+            background: #fff4cf;
+            border: 3px solid #fff4cf;
+            border-radius: 8px;
+            height: 15px;
+            width: 5000px;
+        }
+        
+        #power3 {
+            position: relative;
+            left: 1350px;
+            top: 140px;
+            background: #ffeaea;
+            border: 3px solid #ffeaea;
+            border-radius: 8px;
+            height: 15px;
+            width: 5000px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h2 class="row">Finance and Accounts</h2>
+    <div class="nav">
+
+        <div class="container1">
+            <div class="cont1">Total</div><img src="images/tick.png" id="tick1" /></div>
+        <div>
+            <div id="power"></div>
+
+        </div>
+
+        <div class="container2">
+            <div class="path">
+
+                <div> <img src="images/icon.png" id="path1" /></div>
+                <div> <img src="images/sh.png" id="path2" /></div>
+                <div><img src="images/setting.png" id="path3" /></div>
+                <div> <img src="images/path.png" id="path4" /></div>
+                <div><img src="images/user.png" id="path5" /></div>
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class='cont3'>Done</div> <img src="images/green.png" id="done1" />
+        </div>
+        <div id="power1"> </div>
+
+        <div class="container4">
+            <div>Exception</div>
+        </div>
+        <div id="power2"></div>
+        <div class="container5">
+            <div>Error</div>
+        </div>
+        <div id="power3"></div>
+    </div>
+    </div>
+    <div class="index">
+        <div class="dev_1">Cases</div>
+        <div class="dev_2">Last 7 days</div>
+        <div class="dev_3">Filters</div>
+        <div class="dev_4">Search</div>
+        <div class="shu"> <img src="images/search.png" /> </div>
+
+        <div class="dev_5">View Batches</div>
+    </div>
+
+    <table class="thor">
+        <thead>
+            <th class="thor1">Case ID</th>
+            <th class="thor2">Case Name</th>
+            <th class="thor3">Page</th>
+            <th class="thor3">Uploaded At</th>
+            <th class="thor4">Modified At</th>
+            <th class="thor5">status</th>
+            <th class="thor6">Action</th>
+            <tbody class="level">
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+
+                </tr>
+
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+                <tr>
+                    <td> <img src="images/write.png" class="level1" /> <img src="images/group.png" class="level2" /> </td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+</body>
+
+</html>
